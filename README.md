@@ -1,4 +1,6 @@
 # Kafka Connect ArangoDB Connector
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjaredpetersen%2Fkafka-connect-arangodb.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjaredpetersen%2Fkafka-connect-arangodb?ref=badge_shield)
+
 Kafka Connect Sink Connector for ArangoDB
 
 ## Usage
@@ -88,3 +90,7 @@ In most situations, the record values that you will want to sink into ArangoDB i
 | Type                                                               | Description                                        |
 | ------------------------------------------------------------------ | -------------------------------------------------- |
 | `org.jaredpetersen.kafka.kafkaconnectarangodb.sink.transforms.Cdc` | Converts records from CDC format to Simple format. |
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjaredpetersen%2Fkafka-connect-arangodb.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjaredpetersen%2Fkafka-connect-arangodb?ref=badge_large)
